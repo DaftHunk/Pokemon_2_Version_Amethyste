@@ -48,6 +48,7 @@ If you're new to git and GitHub, [Team Aqua's Asset Repo](https://github.com/Paw
 # [Documentation](https://TixoRebel.github.io/pokehns-expansion/)
 
 For detailed documentation, visit the [pokehns-expansion documentation page](https://TixoRebel.github.io/pokehns-expansion/).
+- **Pokédex** : https://docs.google.com/spreadsheets/d/1eqqon0WcVeGvpFU8_uHA9LfsZ0DhFx-J1mXUqUpavkI/edit?usp=sharing
 
 # [Contributions](CONTRIBUTING.md)
 If you are looking to [report a bug](CONTRIBUTING.md#Bug-Report), [open a pull request](CONTRIBUTING.md#Pull-Requests), or [request a feature](CONTRIBUTING.md#Feature-Request), our [`CONTRIBUTING.md`](CONTRIBUTING.md) has guides for each.
