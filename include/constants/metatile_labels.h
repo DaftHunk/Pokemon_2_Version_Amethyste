@@ -1,9 +1,6 @@
 #ifndef GUARD_METATILE_LABELS_H
 #define GUARD_METATILE_LABELS_H
 
-// gTileset_MahoganyTown
-#define METATILE_MahoganyTown_Azalea  0x2A2
-
 // gTileset_BattleArena
 #define METATILE_BattleArena_Door  0x21B
 
@@ -135,7 +132,10 @@
 // gTileset_Cave
 #define METATILE_Cave_CrackedFloor                       0x22F
 #define METATILE_Cave_CrackedFloor_Hole                  0x206
+#define METATILE_Cave_DragonsDen_Door                    0x2FF
 #define METATILE_Cave_EntranceCover                      0x229
+#define METATILE_Cave_Ice_IcePath_CrackedFloor           0x39E
+#define METATILE_Cave_Ice_IcePath_CrackedFloorHole       0x39F
 #define METATILE_Cave_SealedChamberBraille_Mid           0x235
 #define METATILE_Cave_SealedChamberEntrance_BottomLeft   0x232
 #define METATILE_Cave_SealedChamberEntrance_BottomMid    0x233
@@ -148,14 +148,8 @@
 #define METATILE_Cave_ShoalCave_DirtPile_Large           0x358
 #define METATILE_Cave_ShoalCave_DirtPile_Small           0x35A
 
-// gTileset_Cave_DragonsDen
-#define METATILE_Cave_DragonsDen_Door  0x2FF
-
 // gTileset_CeruleanCity
 #define METATILE_CeruleanCity_Cerulean  0x298
-
-// gTileset_CherrygroveCity
-#define METATILE_Cherrygrove_Door_Red  0x2EB
 
 // gTileset_CianwoodCity
 #define METATILE_CianwoodCity_Cianwood  0x29A
@@ -165,6 +159,9 @@
 #define METATILE_Contest_CounterFlap_Top     0x2D1
 #define METATILE_Contest_FloorShadow         0x261
 #define METATILE_Contest_WallShadow          0x221
+
+// gTileset_DepartmentStore
+#define METATILE_DepartmentStore_Door  0x28D
 
 // gTileset_Dewford
 #define METATILE_Dewford_Door              0x225
@@ -306,9 +303,8 @@
 // gTileset_Goldenrod_Underground_Storage
 #define METATILE_Goldenrod_Underground_Storage_Elevator  0x2AB
 
-// gTileset_Cave_Ice
-#define METATILE_Cave_Ice_IcePath_CrackedFloor      0x39E
-#define METATILE_Cave_Ice_IcePath_CrackedFloorHole  0x39F
+// gTileset_House_Lab
+#define METATILE_House_Lab_Broken_Window  0x32B
 
 // gTileset_InsideOfTruck
 #define METATILE_InsideOfTruck_DoorClosedFloor_Bottom  0x21D
@@ -324,9 +320,6 @@
 #define METATILE_InsideShip_IntactDoor_Bottom_Interior  0x000
 #define METATILE_InsideShip_IntactDoor_Bottom_Locked    0x233
 #define METATILE_InsideShip_IntactDoor_Bottom_Unlocked  0x22B
-
-// gTileset_DepartmentStore
-#define METATILE_DepartmentStore_Door  0x28D
 
 // gTileset_Johto_General
 #define METATILE_Johto_General_CalmWater       0x12B
@@ -372,6 +365,9 @@
 #define METATILE_LilycoveMuseum_Painting3_Right  0x261
 #define METATILE_LilycoveMuseum_Painting4_Left   0x262
 #define METATILE_LilycoveMuseum_Painting4_Right  0x263
+
+// gTileset_MahoganyTown
+#define METATILE_MahoganyTown_Azalea  0x2A2
 
 // gTileset_Mauville
 #define METATILE_Mauville_DeepSand_BottomMid  0x259
@@ -524,11 +520,11 @@
 #define METATILE_PokemonCenter_Floor_ShadowTop           0x21E
 #define METATILE_PokemonCenter_Floor_ShadowTop_Alt       0x2DC
 
-// gTileset_House_Lab
-#define METATILE_House_Lab_Broken_Window  0x32B
-
 // gTileset_Route38_Farmland
 #define METATILE_Route38_Farmland_Grass  0x2E4
+
+// gTileset_RuinsOfAlph_B1F
+#define METATILE_RuinsOfAlph_B1F_Floor_Hole  0x280
 
 // gTileset_Rustboro
 #define METATILE_Rustboro_Door_Gray  0x21F
@@ -832,9 +828,6 @@
 #define METATILE_SootopolisGym_Ice_Cracked  0x20E
 #define METATILE_SootopolisGym_Stairs       0x207
 
-// gTileset_RuinsOfAlph_B1F
-#define METATILE_RuinsOfAlph_B1F_Floor_Hole  0x280
-
 // gTileset_TrainerHill
 #define METATILE_TrainerHill_CounterDoor          0x334
 #define METATILE_TrainerHill_Door_Elevator_Lobby  0x32C
@@ -925,6 +918,7 @@
 #define METATILE_ssaqua_Door  0x281
 
 // Other
+#define METATILE_Cherrygrove_Door_Red          0x2EB
 #define METATILE_RSMossdeepGym_RedArrow_Down   0x205
 #define METATILE_RSMossdeepGym_RedArrow_Left   0x20C
 #define METATILE_RSMossdeepGym_RedArrow_Right  0x204

@@ -143,7 +143,7 @@
       "id": "HEAL_LOCATION_CELADON_CITY",
       "map": "MAP_CELADON_CITY",
       "x": 48,
-      "y": 12,
+      "y": 18,
       "respawn_map": "MAP_CELADON_CITY_POKEMON_CENTER",
       "respawn_npc": "LOCALID_CELADON_CITY_NURSE"
     },
