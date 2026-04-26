@@ -1159,8 +1159,8 @@
     {
       "id": "LAYOUT_ROUTE25",
       "name": "Route25_Layout",
-      "width": 82,
-      "height": 40,
+      "width": 89,
+      "height": 44,
       "primary_tileset": "gTileset_Johto_General",
       "secondary_tileset": "gTileset_CeruleanCity",
       "border_filepath": "data/layouts/Route25_hns/border.bin",
