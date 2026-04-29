@@ -1605,8 +1605,8 @@
 #define FLAG_BADGE16_GET                            (SYSTEM_FLAGS + 0x8C)  
 #define NUM_KANTO_BADGES                            (1 + FLAG_BADGE16_GET - FLAG_BADGE09_GET)
 
-#define FLAG_UNUSED_0x8ED                           (SYSTEM_FLAGS + 0x8D) // Unused Flag
-#define FLAG_UNUSED_0x8EE                           (SYSTEM_FLAGS + 0x8E) // Unused Flag
+#define FLAG_SYS_PAUSE_TIME                         (SYSTEM_FLAGS + 0x8D) // Unused Flag
+#define FLAG_SYS_POKE_RIDER                         (SYSTEM_FLAGS + 0x8E) // Unused Flag
 #define FLAG_UNUSED_0x8EF                           (SYSTEM_FLAGS + 0x8F) // Unused Flag
 #define FLAG_UNUSED_0x8F0                           (SYSTEM_FLAGS + 0x90) // Unused Flag
 #define FLAG_UNUSED_0x8F1                           (SYSTEM_FLAGS + 0x91) // Unused Flag
