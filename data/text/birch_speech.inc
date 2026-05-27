@@ -1,75 +1,76 @@
 gText_Birch_Welcome::
-	.string "Hi! Sorry to keep you waiting!\p"
-	.string "Welcome to the world of POKéMON!\p"
-	.string "My name is OAK.\p"
-	.string "People call me the POKéMON\n"
-	.string "PROFESSOR.\p"
+	.string "Salut ! Désolé de l'attente !\p"
+	.string "Bienvenue dans le monde des Pokémon !\p"
+	.string "Mon nom est Chen.\p"
+	.string "Mais on m'appelle\n"
+	.string "le Professeur Pokémon.\p"
 	.string "$"
 
 gText_Birch_Pokemon::
-	.string "This is what we call a “POKéMON.”\p"
+	.string "Voici ce qu'on appelle un “Pokémon”.\p"
 	.string "\n"
 	.string "$"
 
 gText_Birch_MainSpeech::
-	.string "This world is widely inhabited by\n"
-	.string "creatures known as POKéMON.\p"
-	.string "People and POKéMON live together,\n"
-	.string "by supporting each other.\p"
-	.string "Some people play with POKéMON,\n"
-	.string "some battle with them. \p"
-	.string "But we don't know everything about\n"
-	.string "POKéMON yet. \p"
-	.string "There are still many mysteries\n"
-	.string "to solve. That's why I study\l"
-	.string "POKéMON every day.\p"
+	.string "Ce monde est peuplé de créatures\n"
+	.string "appelées Pokémon.\p"
+	.string "Humains et Pokémon vivent en\n"
+	.string "parfaite harmonie…\p"
+	.string "Certains jouent avec les Pokémon,\n"
+	.string "d'autres font des combats avec eux.\p"
+	.string "Mais il reste beaucoup à apprendre\n"
+	.string "sur nos amis les Pokémon.\p"
+	.string "De nombreux mystères planent à\n"
+	.string "leur sujet.\p"
+    .string "Et c'est pourquoi j'étudie\n"
+	.string "les Pokémon tous les jours.\p"
 	.string "$"
 
 gText_Birch_AndYouAre::
-	.string "And you are?$"
+	.string "Et toi, qui es-tu ?$"
 
 gText_Birch_BoyOrGirl::
-	.string "Are you a boy?\n"
-	.string "Or are you a girl?$"
+	.string "Êtes-vous un garçon ou une fille ?\n"
+    .string "$"
 
 gText_Birch_Difficulty::
-	.string "Aha…\p"
-	.string "And… How do you think this\n"
-	.string "adventure is going to be?$"
+	.string "Ah…\p"
+	.string "Et… comment penses-tu que cette\n"
+	.string "aventure va se dérouler ?$"
 
 gText_Birch_LockDifficulty::
-	.string "If you need to change the DIFFICULTY\n"
-	.string "you can open the OPTIONS MENU and\l"
-	.string "change it from there.\p"
-	.string "You can also lock it, if you want.\n"
-	.string "Do you want to lock the\l"
-	.string "chosen DIFFICULTY?\p"
-	.string "This cannot be changed later.$"
+	.string "Si tu dois changer la difficulté,\n"
+	.string "tu peux ouvrir le menu Options et\l"
+	.string "la modifier depuis ce menu.\p"
+	.string "Tu peux aussi la verrouiller si tu\n"
+	.string "le souhaites. Verrouiller la\l"
+	.string "difficulté choisie ?\p"
+	.string "Ce choix sera définitif.$"
 
 gText_Birch_Challenge::
-	.string "Oh, is that so?\p"
-	.string "All right, with that clear…\n"
-	.string "Do you expect any CHALLENGE\l"
-	.string "in your journey?\p"
-	.string "And what's your name?$"
+	.string "Oh, vraiment ?\p"
+	.string "Très bien, ceci étant dit…\n"
+	.string "T'attends-tu à des défis\l"
+	.string "durant ton voyage ?\p"
+	.string "Et quel est ton nom ?$"
 
 gText_Birch_WhatsYourName::
-	.string "Now, what did you say your name.\n"
-	.string "was?$"
+	.string "Heu… C'est quoi ton nom ?$"
 
 gText_Birch_SoItsPlayer::
-	.string "Oh! So you're {PLAYER}{KUN}?$"
+	.string "Oh ! Tu es donc {PLAYER} ?$"
 
 gText_Birch_YourePlayer::
-	.string "{PLAYER}{KUN}, are you ready?\p"
-	.string "Your very own adventure is about\n"
-	.string "to unfold.\p"
+	.string "{PLAYER}, on y va ?\p"
+	.string "Ta quête est sur le point\n"
+	.string "de commencer.\p"
 	.string "$"
 
 gText_Birch_AreYouReady::
-	.string "You'll face fun times and tough\n"
-	.string "challenges.\p"
-	.string "A world of dreams and adventures\n"
-	.string "with POKéMON awaits! Let's go!\p"
-	.string "I'll be seeing you later!\p"
+	.string "Joies et périls paveront ta route…\p"
+	.string "Un monde de rêves, de danger et\n"
+	.string "de Pokémon t'attend !\p"
+	.string "En avant !\p"
+	.string "…\n"
+    .string "À plus tard\p"
 	.string "$"
