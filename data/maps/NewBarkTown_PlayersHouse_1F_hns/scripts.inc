@@ -142,25 +142,25 @@ NewBarkTown_PlayersHouse_1F_EventScript_MomHealsParty_PokecenterChallenge::
 	end
 
 NewBarkTown_PlayersHouse_1F_Text_YouShouldRestABit_PokecenterChallenge:
-	.string "MOM: Sorry honey, you are playing\n"
-	.string "with the POKéCENTER challenge!$"
+	.string "Maman: Désolée mon chérie, tu joues\n"
+	.string "avec le challenge du Pokécentre !$"
 
 NewBarkTown_PlayersHouse_1F_Text_YouShouldRestABit:
-	.string "MOM: How are you doing, {PLAYER}?\n"
-	.string "You look a little tired.\p"
-	.string "I think you should rest a bit.$"
+    .string "Maman: Comment ça va, {PLAYER}?\n"
+    .string "Tu as l’air raplapla.\p"
+    .string "Tu devrais peut-être te reposer.$"
 
 @ HnS
 Common_Text_ReceivedMon:
-	.string "{PLAYER} received {STR_VAR_1}!$"
+	.string "{PLAYER} reçoit {STR_VAR_1}!$"
 
 Common_Text_PartyIsFull:
-	.string "Whoa, wait. You can't carry any\n"
-	.string "more POKéMON.$"	
+	.string "Wow, attends. Tu ne peux pas\n"
+	.string "transporter plus de Pokémon.$"
 
 Common_Text_LookCloserAtMap:
-	.string "{PLAYER} took a closer look at the\n"
-	.string "Region Map.$"
+	.string "{PLAYER} regarde attentivement la\n"
+	.string "carte de la région.$"
 
 NewBarkTown_PlayersHouse_1F_PlayerIntroMovement1:
 	delay_8
@@ -198,16 +198,17 @@ NewBarkTown_PlayersHouse_1F_MovementFaceLeft:
 	step_end
 
 NewBarkTown_PlayersHouse_1F_Text_ElmsLookingForYou:
-	.string "Oh, {PLAYER}…! Our neighbor,\n"
-	.string "PROF.ELM, was looking for you.\p"
-	.string "He said he wanted you to do\n"
-	.string "something for him.\p"
-	.string "Oh! I almost forgot! Your POKéGEAR\n"
-	.string "is back from the repair shop.\p"
-	.string "Here you go!$"
+	.string "Ah, {PLAYER}… ! Notre voisin,\n"
+	.string "le Prof. Orme, te cherchait.\p"
+	.string "Il voulait tu fasses quelque\n"
+	.string "chose pour lui.\p"
+	.string "Oh ! J'allais oublier !\n"
+	.string "Ton Pokématos est revenu de\l"
+    .string "chez le réparateur.\p"
+	.string "Tiens !$"
 
 NewBarkTown_PlayersHouse_1F_Text_ObtainedPokeGear:
-	.string "{PLAYER} obtained the POKéGEAR.$"
+	.string "{PLAYER} reçoit le Pokématos.$"
 
 NewBarkTown_PlayersHouse_1F_Text_ExplainPokeGear:
 	.string "MOM: Phone numbers are stored\n"

@@ -71,14 +71,13 @@ NewBarkTown_PlayersHouse_2F_EventScript_NES::
 	end
 
 NewBarkTown_PlayersHouse_2F_Text_NES:
-    .string "{PLAYER} played with the NES.\p"
-    .string "…Okay!\n"
-    .string "It's time to go!$"
+    .string "{PLAYER} joue à la NES.\p"
+    .string "…Bon !\n"
+    .string "On y va maintenant ?$"
 
 NewBarkTown_PlayersHouse_2F_Text_ClockIsStopped:
-	.string "The clock is stopped…\p"
-	.string "Better set it and start it before\n"
-	.string "heading downstairs!$"
+    .string "L’horloge est arrêtée…\p"
+    .string "Il vaudrait mieux la mettre à l’heure !$"
 
 NewBarkTown_PlayersHouse_2F_EventScript_CheckWallClock::
 	incrementgamestat GAME_STAT_CHECKED_CLOCK
