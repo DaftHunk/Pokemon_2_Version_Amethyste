@@ -4,7 +4,12 @@
 Transformations (only inside .string "..." content, macros {...} preserved):
 - POKé<CAPS>  → Poké<lowercase>          (POKéMON → Pokémon, POKéDEX → Pokédex…)
 - WORD ≥ 3 letters ALL-CAPS → Title Case (CHAMPION → Champion, BOURG → Bourg…)
+- French cognates already in source get their missing accents and proper case
+  (DEFENSE → Défense, SPECIAL → Spécial, DEF → Déf, SPE → Spé, ATQ. SPE. → Atq. Spé., …)
 - Add a regular space before ! ? : ;     (French typography)
+
+The script does NOT translate English terms (ATTACK, SPEED, SP. ATK, etc.) — only
+fixes typography on what is already French.
 
 Usage:
     tools/normalize_fr_inc.py data/text/foo.inc [data/text/bar.inc ...]
@@ -20,6 +25,23 @@ POKE_PATTERN    = re.compile(r'POKé([A-ZÀÂÄÇÉÈÊËÎÏÔÖÙÛÜŒ]+)')
 ALLCAPS_PATTERN = re.compile(r'\b[A-ZÀÂÄÇÉÈÊËÎÏÔÖÙÛÜŒ]{3,}\b')
 PUNCT_PATTERN   = re.compile(r'(?<=[^\s\\!?:;])([!?:;])')
 LINE_RE         = re.compile(r'^(\s*\.string\s+")(.*?)("\s*)$', re.DOTALL)
+
+# Accent/typography fixes for French cognates already present in the source.
+# Each pattern only matches a term that is already French (DEFENSE = same letters
+# as Défense). English-only terms (ATTACK, SPEED, SP. ATK…) are deliberately left
+# alone — the script is not a translator.
+# Ordered: longest/most-specific patterns first.
+STAT_REPLACEMENTS = [
+    # Multi-word forms
+    (re.compile(r'\bDEF\.\s*SPE\.'), 'Déf. Spé.'),
+    (re.compile(r'\bATQ\.\s*SPE\.'), 'Atq. Spé.'),
+    # Full cognates (same letters in EN/FR, only accents/casing differ)
+    (re.compile(r'\bDEFENSE\b'),     'Défense'),
+    (re.compile(r'\bSPECIAL\b'),     'Spécial'),
+    # 3-letter FR abbreviations missing their accent
+    (re.compile(r'\bDEF\b'),         'Déf'),
+    (re.compile(r'\bSPE\b'),         'Spé'),
+]
 
 
 def to_proper(m):
@@ -39,6 +61,8 @@ def transform_content(content: str) -> str:
         if i % 2 == 1:
             out.append(p)
         else:
+            for pattern, replacement in STAT_REPLACEMENTS:
+                p = pattern.sub(replacement, p)
             p = POKE_PATTERN.sub(fix_poke, p)
             p = ALLCAPS_PATTERN.sub(to_proper, p)
             p = PUNCT_PATTERN.sub(r' \1', p)
