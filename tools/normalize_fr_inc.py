@@ -3,9 +3,13 @@
 
 Transformations (only inside .string "..." content, macros {...} preserved):
 - POKé<CAPS>  → Poké<lowercase>          (POKéMON → Pokémon, POKéDEX → Pokédex…)
+- OE/oe + u/i → Œ/œ                      (OEUF → Œuf, coeur → cœur, oeil → œil…)
 - WORD ≥ 3 letters ALL-CAPS → Title Case (CHAMPION → Champion, BOURG → Bourg…)
 - French cognates already in source get their missing accents and proper case
   (DEFENSE → Défense, SPECIAL → Spécial, DEF → Déf, SPE → Spé, ATQ. SPE. → Atq. Spé., …)
+- Short connectors (de/du/des/la/le/les/en/et) lowercased mid-title
+  (TOUR DE COMBAT → Tour de Combat, ZONE DE LA RÉCOMPENSE → Zone de la Récompense…)
+  — left untouched at start of a sentence/string.
 - Add a regular space before ! ? : ;     (French typography)
 
 The script does NOT translate English terms (ATTACK, SPEED, SP. ATK, etc.) — only
@@ -24,6 +28,14 @@ import sys
 POKE_PATTERN    = re.compile(r'POKé([A-ZÀÂÄÇÉÈÊËÎÏÔÖÙÛÜŒ]+)')
 ALLCAPS_PATTERN = re.compile(r'\b[A-ZÀÂÄÇÉÈÊËÎÏÔÖÙÛÜŒ]{3,}\b')
 PUNCT_PATTERN   = re.compile(r'(?<=[^\s\\!?:;])([!?:;])')
+# OE/oe ligature: only before u/i (the typical French context: œuf, cœur, sœur,
+# vœu, nœud, œil…). Lookahead protects coexister, moelle, Goethe, etc.
+OE_PATTERN      = re.compile(r'(OE|Oe|oe)(?=[UuIi])')
+# Short connectors lowercased only when preceded by another word + space (i.e.
+# mid-sentence / mid-title). Lookbehind \w\s preserves sentence-start cases.
+# Matches both ALL-CAPS leftovers (DE, DU, LA, LE, EN, ET) and Title-Cased
+# forms produced by ALLCAPS_PATTERN (Des, Les).
+SHORT_CONN_PATTERN = re.compile(r'(?<=\w\s)\b(DE|DU|DES|LA|LE|LES|EN|ET|Des|Les)\b')
 LINE_RE         = re.compile(r'^(\s*\.string\s+")(.*?)("\s*)$', re.DOTALL)
 
 # Accent/typography fixes for French cognates already present in the source.
@@ -53,6 +65,11 @@ def fix_poke(m):
     return "Poké" + m.group(1).lower()
 
 
+def fix_oe(m):
+    # Use Œ if the original matched group starts with uppercase, else œ
+    return 'Œ' if m.group(0)[0].isupper() else 'œ'
+
+
 def transform_content(content: str) -> str:
     # Split into segments: macros preserved, rest transformed
     parts = re.split(r'(\{[^}]+\})', content)
@@ -64,7 +81,9 @@ def transform_content(content: str) -> str:
             for pattern, replacement in STAT_REPLACEMENTS:
                 p = pattern.sub(replacement, p)
             p = POKE_PATTERN.sub(fix_poke, p)
+            p = OE_PATTERN.sub(fix_oe, p)
             p = ALLCAPS_PATTERN.sub(to_proper, p)
+            p = SHORT_CONN_PATTERN.sub(lambda m: m.group(0).lower(), p)
             p = PUNCT_PATTERN.sub(r' \1', p)
             out.append(p)
     return ''.join(out)
