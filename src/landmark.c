@@ -43,7 +43,7 @@ static const struct Landmark Landmark_SeafloorCavern = {COMPOUND_STRING("SEAFLOO
 static const struct Landmark Landmark_GraniteCave = {COMPOUND_STRING("GRANITE CAVE"), -1};
 static const struct Landmark Landmark_OceanCurrent = {COMPOUND_STRING("OCEAN CURRENT"), -1};
 #if IS_HNS
-static const struct Landmark Landmark_BillsHouse = {COMPOUND_STRING("BILL'S HOUSE"), FLAG_LANDMARK_BILLS_HOUSE};
+static const struct Landmark Landmark_BillsHouse = {COMPOUND_STRING("Maison de Léo"), FLAG_LANDMARK_BILLS_HOUSE};
 #else
 static const struct Landmark Landmark_LanettesHouse = {COMPOUND_STRING("LANETTE'S HOUSE"), FLAG_LANDMARK_LANETTES_HOUSE};
 #endif

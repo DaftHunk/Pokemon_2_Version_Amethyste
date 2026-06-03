@@ -3465,7 +3465,7 @@ bool8 ScrCmd_givenamedmon(struct ScriptContext *ctx)
     static const u8 sKenyaOtName[]   = _("RUDY");
     static const u8 sShuckieNickname[] = _("SHUCKIE");
     static const u8 sShuckieOtName[]   = _("KIRK");
-    static const u8 sEeveeOtName[]     = _("BILL");
+    static const u8 sEeveeOtName[]     = _("Léo");
 
     // Use actual Easy Chat word constants
     static const u16 sKenyaMailWords[MAIL_WORDS_COUNT] = {

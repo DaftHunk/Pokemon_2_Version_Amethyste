@@ -29,7 +29,7 @@ Route111_Text_WateredPlantsEveryDayTakeBerry:
 
 Route111_Text_GoingToTryToMakeDifferentColorBerries:
 	.string "Je vais tout faire pour essayer\n"
-	.string "d’obtenir des {POKEBLOCK}S de différentes\l"
+	.string "d’obtenir des {POKEBLOCK}s de différentes\l"
 	.string "couleurs !\p"
 	.string "J’espère que tu vas tout faire aussi !$"
 
@@ -94,7 +94,7 @@ LilycoveCity_Text_BecauseYoureTrainer:
 LilycoveCity_Text_PokeblocksSuitPokemon:
 	.string "Quand on y regarde de près…\p"
 	.string "tout comme la simplicité me va, les\n"
-	.string "{POKEBLOCK}S conviennent très bien aux\l"
+	.string "{POKEBLOCK}s conviennent très bien aux\l"
 	.string "Pokémon.$"
 
 Route123_BerryMastersHouse_Text_YoureDeservingOfBerry:

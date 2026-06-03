@@ -1227,7 +1227,7 @@ MatchCall_PersonalizedText52::
 	.string "J’ai donné un {POKEBLOCK} à mon\n"
 	.string "{STR_VAR_2}. Il a beaucoup aimé.\p"
 	.string "Les Pokémon ont tous leurs\n"
-	.string "préférences en matière de {POKEBLOCK}S.\p"
+	.string "préférences en matière de {POKEBLOCK}s.\p"
 	.string "Je trouve ça fascinant.\n"
 	.string "Au revoir.$"
 

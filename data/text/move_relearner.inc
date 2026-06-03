@@ -1,6 +1,6 @@
 MoveRelearner_Text_WouldLearnNewMoves:
 .string "Bonjour ! Je suis Maître Capacités.\n"
-.string "Voulez-vous apprendre une capacité ?$"
+.string "Tu veux apprendre une capacité ?$"
 
 MoveRelearner_Text_LevelUpMoves:
 .string "Capacités Niveau$"
@@ -18,13 +18,13 @@ MoveRelearner_Text_SeeYa:
 .string "Au revoir !$"
 
 MoveRelearner_Text_AnythingElse:
-.string "Désirez-vous autre chose ?$"
+.string "Désires-tu autre chose ?$"
 
 MoveRelearner_Text_ChoosePkmn:
-.string "Choisissez votre Pokémon.$"
+.string "Choisis ton Pokémon.$"
 
 MoveRelearner_Text_HaveNoPkmn:
-.string "Vous n'avez aucun Pokémon.$"
+.string "Tu n'as aucun Pokémon.$"
 
 MoveRelearner_Text_CantTeachMoveToEgg:
 .string "Désolé…\n"

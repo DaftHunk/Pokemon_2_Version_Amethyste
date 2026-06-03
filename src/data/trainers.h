@@ -13891,7 +13891,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BILL] =
     {
 #line 5312
-        .trainerName = _("BILL"),
+        .trainerName = _("Léo"),
 #line 5313
         .trainerClass = TRAINER_CLASS_FIREBREATHER,
 #line 5314
