@@ -1,4 +1,6 @@
 ![HnS Logo](HnS_Logo.png)
+# Pokémon 2 : Version Améthyste 
+Romhack Française basée sur PokeHnS Expansion (Pokémon Crystal sur GBA) proposant une nouvelle approche : si Pokémon n'était pas devenu une franchise et soit resté sur le projet Pokémon 2 tout en sortant sur GBA plutôt que GBC pour aller au bout de leurs idées.
 
 # About `pokemonHnS-expansion`
 
@@ -56,6 +58,7 @@ If you're new to git and GitHub, [Team Aqua's Asset Repo](https://github.com/Paw
 ## 🏗️ [Building **`pokemonHnS-expansion`**](INSTALL.md#Building-pokemonHnS-expansion)
 
 # [Documentation](https://pokemonhns-development.github.io/pokehns-expansion-documentation/)
+- **Pokédex** : <https://docs.google.com/spreadsheets/d/1eqqon0WcVeGvpFU8_uHA9LfsZ0DhFx-J1mXUqUpavkI/edit?usp=sharing>
 
 For our player-facing documentation, visit the [**`pokemonHnS-expansion`** documentation page](https://pokemonhns-development.github.io/pokehns-expansion-documentation/).
 
