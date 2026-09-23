@@ -1,61 +1,60 @@
 gText_Oak_Welcome::
-	.string "Hi! Sorry to keep you waiting!\p"
-	.string "Welcome to the world of POKéMON!\p"
-	.string "My name is OAK.\p"
-	.string "People call me the POKéMON\n"
-	.string "PROFESSOR.\p"
+	.string "Salut ! Désolé de l’attente !\p"
+	.string "Bienvenue dans le monde des Pokémon !\p"
+	.string "Mon nom est Chen.\p"
+	.string "On m’appelle\n"
+	.string "le Professeur Pokémon.\p"
 	.string "$"
 
 gText_Oak_Pokemon::
-	.string "This is what we call a “POKéMON.”\p"
+	.string "Voici ce qu’on appelle un “Pokémon”.\p"
 	.string "\n"
 	.string "$"
 
 gText_Oak_MainSpeech::
-	.string "This world is widely inhabited by\n"
-	.string "creatures known as POKéMON.\p"
-	.string "People and POKéMON live together,\n"
-	.string "by supporting each other.\p"
-	.string "Some people play with POKéMON,\n"
-	.string "some battle with them. \p"
-	.string "But we don't know everything about\n"
-	.string "POKéMON yet. \p"
-	.string "There are still many mysteries\n"
-	.string "to solve. That's why I study\l"
-	.string "POKéMON every day.\p"
+	.string "Ce monde est peuplé de créatures\n"
+	.string "appelées Pokémon.\p"
+	.string "Humains et Pokémon vivent en\n"
+	.string "parfaite harmonie…\p"
+	.string "Certains jouent avec les Pokémon,\n"
+	.string "d’autres font des combats avec eux.\p"
+	.string "Mais il reste beaucoup à apprendre\n"
+	.string "sur nos amis les Pokémon.\p"
+	.string "De nombreux mystères planent à\n"
+	.string "leur sujet. Et c’est pourquoi\l"
+	.string "j’étudie les Pokémon tous les jours.\p"
 	.string "$"
 
 gText_Oak_AndYouAre::
-	.string "And you are?$"
+	.string "Et toi, qui es-tu ?$"
 
 gText_Oak_BoyOrGirl::
-	.string "Are you a boy?\n"
-	.string "Or are you a girl?$"
+	.string "Êtes-vous un garçon ou une fille ?$"
 
 gText_Oak_WhatChallenge::
-	.string "What challenge are you\n"
-	.string "expecting?$"
+	.string "T’attends-tu à des défis\n"
+	.string "durant ton voyage ?$"
 
 gText_Oak_ChallengeSelected::
-	.string "That sounds like the right\n"
-	.string "level of challenge to me!$" 
+	.string "Ça m’a l’air d’être le bon\n"
+	.string "niveau de défi !$"
 
 gText_Oak_WhatsYourName::
-	.string "And what's your name?$"
+	.string "Heu… C’est quoi ton nom ?$"
 
 gText_Oak_SoItsPlayer::
-	.string "Oh! So you're {PLAYER}{KUN}?$"
+	.string "Oh ! Tu es donc {PLAYER}{KUN} ?$"
 
 gText_Oak_YourePlayer::
-	.string "{PLAYER}{KUN}, are you ready?\p"
-	.string "Your very own adventure is about\n"
-	.string "to unfold.\p"
+	.string "{PLAYER}{KUN}, on y va ?\p"
+	.string "Ta quête est sur le point\n"
+	.string "de commencer.\p"
 	.string "$"
 
 gText_Oak_AreYouReady::
-	.string "You'll face fun times and tough\n"
-	.string "challenges.\p"
-	.string "A world of dreams and adventures\n"
-	.string "with POKéMON awaits! Let's go!\p"
-	.string "I'll be seeing you later!\p"
+	.string "Joies et périls paveront ta route…\p"
+	.string "Un monde de rêves, de danger et\n"
+	.string "de Pokémon t’attend !\p"
+	.string "En avant !\p"
+	.string "À plus tard !\p"
 	.string "$"

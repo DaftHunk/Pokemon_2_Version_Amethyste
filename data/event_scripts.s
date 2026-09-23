@@ -1425,11 +1425,11 @@ Common_EventScript_PartyIsFull::
 	end
 
 Common_Text_ReceivedMon:
-	.string "{PLAYER} received {STR_VAR_1}!$"
+	.string "{PLAYER} reçoit {STR_VAR_1}!$"
 
 Common_Text_PartyIsFull:
-	.string "Whoa, wait. You can't carry any\n"
-	.string "more POKéMON.$"	
+	.string "Wow, attends. Tu ne peux pas\n"
+	.string "transporter plus de Pokémon.$"	
 
 Common_EventScript_PlayerHandedOverTheItem::
 	bufferitemname STR_VAR_1, VAR_0x8004
