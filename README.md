@@ -1,5 +1,10 @@
 ![HnS Logo](HnS_Logo.png)
 
+# Pokémon 2 : Version Améthyste 
+Romhack Française basée sur PokeHnS Expansion (Pokémon Crystal sur GBA) proposant une nouvelle approche : si Pokémon n'était pas devenu une franchise et soit resté sur le projet Pokémon 2 tout en sortant sur GBA plutôt que GBC pour aller au bout de leurs idées.
+
+La branche **hns_2_fr** est la traduction de **Pokémon Heart and Soul 2.0** sans ajouts spécifiques mise à part l'adaptation aux spécificités françaises et à un peu plus coller au ton du jeu original.
+
 # About `pokemonHnS-expansion`
 
 <!-- If you want to re-record or change these gifs, here are some notes that I used: https://files.catbox.moe/05001g.md -->
@@ -24,6 +29,10 @@ A full list of the features present in Pokémon Heart & Soul 2.0 can be found in
 A full list of the features made available by **`pokeemerald-expansion`** can be found in [`AVAILABLE_FEATURES.md`](AVAILABLE_FEATURES.md).
 
 # [Credits](CREDITS.md)
+
+- [Remylenain](https://github.com/Remylenain) : traduction de la plupart du contenu et adaptation des textes pour coller au jeu original
+- [qigast](https://github.com/qigast) : traduction de [pokeemeraude-expansion](https://github.com/pokehacking-fr/pokeemeraude-expansion) qui nous sert de base pour notre traduction
+- [DaftHunk](https://github.com/DaftHunk?tab=repositories) : traduction et adaptation de divers contenus
 
 <!-- TODO: update .all-contributorsrc and CREDITS.md to match https://pokemonhns-development.github.io/pokehns-expansion-documentation/credits.html -->
 <!-- [![](https://img.shields.io/github/all-contributors/pokemonHnS-Development/pokemonHnS-expansion/upcoming)](CREDITS.md) -->
