@@ -4321,6 +4321,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .natDexNum = NATIONAL_DEX_RAICHU_ALOLA,
 #else
         .natDexNum = NATIONAL_DEX_RAICHU,
+#endif
         .categoryName = _("Souris"),
         .height = 7,
         .weight = 210,
@@ -20872,6 +20873,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .natDexNum = NATIONAL_DEX_MOLTRES_GALAR,
 #else
         .natDexNum = NATIONAL_DEX_MOLTRES,
+#endif
         .categoryName = _("Maléfique"),
         .height = 20,
         .weight = 660,
